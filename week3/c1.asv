@@ -1,0 +1,5 @@
+%: Sanjay, /8/2024
+%  Linear Algebrae Review
+clc, clear all, format compact
+%Variables
+A=[5,7;-2,0.5;pi 8]
