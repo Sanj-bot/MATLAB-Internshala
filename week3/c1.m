@@ -10,9 +10,21 @@ c=5;                            %scalar
 
 
 % Matrix Scalar Add/Subtract
+E+c; c-E;
 
 
 %Matrix Scalar Multiply Divide
-
+c*A;D/c;
 
 %Matrix Matrix Add/Subtract (the same dimensions!)
+A+B; B-A;
+%Matrix Matrix Multiply (check your mxn * mxn!)
+A*E;
+%Determinant 
+det(E);
+%using the Dot
+stress=[23.2,34.5,77.6,88.1];
+area=[17.2, 42.6,19.8, 55.5];
+%calculate the force=stress*area
+
+stress.*area;
