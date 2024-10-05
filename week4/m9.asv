@@ -1,8 +1,0 @@
-% Custom functions
-clc,clearvars, format compact
-
-% Variables
-radius=5;
-p_density=1.2;
-%calculations-Volume, surface Area, Mass
-volume=4/3*pi*radius^3;
